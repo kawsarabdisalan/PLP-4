@@ -25,7 +25,7 @@ cout << "X is greater than Y" << endl;
 }
 ```
 
-# IF-else statements
+# If-else statements
 An if-else statement will allow you to look to give responses if the statement is true or false. Below is the syntax for an if-else statement. 
 
 ```
@@ -102,3 +102,17 @@ int main() {
     return 0;
 }
 ```
+C++ also supports using switch. Below is the syntax: 
+```
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  case :
+    // code block
+}
+```
+In order to get out of the case once it is found you use break to exit the program and return what was given in the case. 
