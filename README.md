@@ -1,7 +1,12 @@
 # PLP-4
 
 There are 2 boolean values in C++. They are true (1) and false (0). <br>
-C++ has many conditional statements available for you to use. There are if statements, if-else statements and if-else if- else statements <br>
+C++ has many conditional statements available for you to use. Below they are shown: 
+- If statement
+- If - else statement
+- If , else if , else statements
+
+The way C++ delimtes the code under each condition is based off the curly brackets. Examples will be shown below. 
 # If statement 
 An if statement will allow you to look at something to see if it is true. If it is true, it will follow through the statement and if it is false, it will not return anything. An example is attached below.
 
@@ -52,7 +57,7 @@ cout << "X is less than Y"" <<endl;
 ```
 
 # If-Else If- Else:
-The last conditional for C++ is if-else if- else. This will allow you to give responses to the user if the first condition is true, and if it is not, if another condition is true, and finally if none are true, a statement if it is false. Below is the syntax:
+The last conditional for C++ is if-else if- else. This will allow you to give responses to the user if the first condition is true, and if it is not, it will look at the second condition (else if),  and finally if none are true, it will print out a statement. Below is the syntax:
 You can put in as many else if as you would like. 
 ```
 if (condition){
@@ -116,3 +121,6 @@ switch(expression) {
 }
 ```
 In order to get out of the case once it is found you use break to exit the program and return what was given in the case. 
+Sources: 
+https://www.w3schools.com/cpp/cpp_switch.asp
+https://www.w3schools.com/cpp/cpp_conditions.asp
