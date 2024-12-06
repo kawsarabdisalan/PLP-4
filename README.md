@@ -86,6 +86,7 @@ if (time < 10) {
 }
 // Outputs "Good evening."
 ```
+C++ handles the "dangling else" problem by using the method: "matchest-the-closest-if" rule. This means that it will associate with the closest unmatched if statment. 
 C++ also allows you to use short circuiting. Below is ane example:
 ```
 #include <iostream>
@@ -121,6 +122,13 @@ switch(expression) {
 }
 ```
 In order to get out of the case once it is found you use break to exit the program and return what was given in the case. 
+
+C++ also handles different types of loops to handle repetitive tasks. Some examples include a while loop, do while/loops, and for loops. <br>
+- While loops can be used when you have a condition reptition
+- Do/While loops can be used when you want it to run at least once
+- For loops can be used when you want to fufill something based off a count
+
+In C++, loop code blocks are treated different than function code blocks. For example, in loop code blocks have a lifetime only until the code block ends. While in function code blocks their lifetime extends until the program ends. 
 Sources: 
 https://www.w3schools.com/cpp/cpp_switch.asp
 https://www.w3schools.com/cpp/cpp_conditions.asp
