@@ -1,6 +1,8 @@
 # PLP-4
 
+### Boolean Values 
 There are 2 boolean values in C++. They are true (1) and false (0). <br>
+### Conditional Statements
 C++ has many conditional statements available for you to use. Below they are shown: 
 - If statement
 - If - else statement
@@ -56,7 +58,7 @@ cout << "X is less than Y"" <<endl;
 }
 ```
 
-# If-Else If- Else:
+# If- Else If- Else:
 The last conditional for C++ is if-else if- else. This will allow you to give responses to the user if the first condition is true, and if it is not, it will look at the second condition (else if),  and finally if none are true, it will print out a statement. Below is the syntax:
 You can put in as many else if as you would like. 
 ```
@@ -86,7 +88,10 @@ if (time < 10) {
 }
 // Outputs "Good evening."
 ```
+### Dangling Else Problem
 C++ handles the "dangling else" problem by using the method: "matchest-the-closest-if" rule. This means that it will associate with the closest unmatched if statment. 
+
+### Short-circuiting
 C++ also allows you to use short circuiting. Below is ane example:
 ```
 #include <iostream>
@@ -108,6 +113,7 @@ int main() {
     return 0;
 }
 ```
+### Switch Case
 C++ also supports using switch. Below is the syntax: 
 ```
 switch(expression) {
@@ -122,7 +128,7 @@ switch(expression) {
 }
 ```
 In order to get out of the case once it is found you use break to exit the program and return what was given in the case. 
-
+### Loops in C++
 C++ also handles different types of loops to handle repetitive tasks. Some examples include a while loop, do while/loops, and for loops. <br>
 - While loops can be used when you have a condition reptition
 - Do/While loops can be used when you want it to run at least once
