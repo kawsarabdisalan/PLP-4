@@ -135,6 +135,7 @@ C++ also handles different types of loops to handle repetitive tasks. Some examp
 - For loops can be used when you want to fufill something based off a count
 
 In C++, loop code blocks are treated different than function code blocks. For example, in loop code blocks have a lifetime only until the code block ends. While in function code blocks their lifetime extends until the program ends. 
+<br>
 Sources: 
-https://www.w3schools.com/cpp/cpp_switch.asp
-https://www.w3schools.com/cpp/cpp_conditions.asp
+- https://www.w3schools.com/cpp/cpp_switch.asp
+- https://www.w3schools.com/cpp/cpp_conditions.asp
